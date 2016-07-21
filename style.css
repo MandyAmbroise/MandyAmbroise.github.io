@@ -1,10 +1,18 @@
 body{
     text-align: center; 
+    background-color: black;
+    color: white; 
+    window.alert("Intrested in seeing more?";
+   )
 }
 
 h4 {
-    border-style: double;
-    border-width: 15px;
+    border-style: dotted;
+    border-width: 2
+    
+}
 
+h1 {
+    font-family: 'Audiowide', cursive;
 }
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+    function myFunction() {
+        var words = document.getElementById("welcome");
+        words.innerHTML = "Thanks for visiting!";
+    
+    
+  
+    var img = document.getElementById("image");
+    var url1 = "egg.jpg";
+    var url2 = "chick.jpg";
+    
+    if (img.src.match(url1)){
+    img.src = url2;
+    
+    }else{
+    img.src = url1;
+    }
+    }
+   </script>
+  </head>
+  <body>
+    <img src = "egg.jpg" id = "image"/> 
+    <h1 id="welcome">Welcome to my page!</h1>
+    <button id="btn" onclick="myFunction()">Click me!</button>
+    <style= "width:500x;height:300px;">
+</body>
+</html>
