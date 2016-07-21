@@ -1,18 +1,22 @@
 body{
     text-align: center; 
     background-color: black;
-    color: white; 
-    window.alert("Intrested in seeing more?";
+    color: black; 
+    background-image: url('heart.gif');
+    cursor: -webkit-image-set( url ( "http://vignette2.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009") 1x,
+    url ("http://vignette2.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009"2x), auto;
    )
 }
 
-h4 {
-    border-style: dotted;
+h1 {
+    border-style: double;
     border-width: 2
     
 }
 
+
 h1 {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide', cursive; 
+    
 }
 
